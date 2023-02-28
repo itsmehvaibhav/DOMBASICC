@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My App</title>
+</head>
+<body>
+	<h1>My App</h1>
+	
+	<label for="newItem">New Item:</label>
+	<input type="text" id="newItem" name="newItem">
+	<button onclick="addItem()">Add Item</button>
+	
+	<ul id="itemList">
+		<li>Item 1 <button onclick="editItem(this)">Edit</button> <button onclick="deleteItem(this)">Delete</button></li>
+		<li>Item 2 <button onclick="editItem(this)">Edit</button> <button onclick="deleteItem(this)">Delete</button></li>
+		<li>Item 3 <button onclick="editItem(this)">Edit</button> <button onclick="deleteItem(this)">Delete</button></li>
+	</ul>
+    <script src= "crud.js"> </script>
+</body>
+
+</html>
